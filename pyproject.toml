@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "anti-mouse"
+version = "0.1.0"
+description = ""
+authors = ["GERISON KIMATHI <gerkim62@gmail.com>"]
+readme = "README.md"
+packages = [{include = "anti_mouse"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynput = "^1.7.7"
+requests = "^2.32.3"
+markdown = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
